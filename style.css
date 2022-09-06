@@ -1,0 +1,196 @@
+body{
+	background:url(img/fondo.jpg);
+	background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+  }
+
+  /* Algunos estilos de fuentes, tamaños, etc.  */
+  .banner{
+    margin: 2%;
+    padding: 2px;
+    text-align: center;
+    font-family: 'Ledger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+  }
+
+  .tittle{
+    font-family: 'Ledger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    
+    color: #000000;
+    
+    -webkit-text-stroke: 1px white;
+  
+  }
+  
+  /* Definición de tamaños */
+  .wrapper{
+    background: #fff;
+    opacity: 0.8;
+    width: 90%;
+    margin: 5%;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    background: #FFCBFA;
+    border: 1px solid #000000;
+  }
+  
+  /* Para que quede centrado todo en medio de la pág. */
+  #tittleTamaño{
+    text-align: center;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 73px;
+  }
+  
+  #tittlePrice{
+    text-align: center;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 73px;
+  }
+  
+  .price{
+    text-align: center;
+  }
+  
+  .nav-link {
+      color: rgb(0, 0, 0);
+  }
+
+  /* Styles para cada encabezado dentro de la tabla */
+  .cremaTitulo{
+    background: rgba(255, 240, 201, 0.52);
+    border: 1px solid #000000;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+  }
+  .frutalTitulo{
+    background: rgba(253, 143, 255, 0.52);;
+    border: 1px solid #000000;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+  } 
+  .chocolateTitulo{
+    background: rgba(150, 98, 56, 0.52);
+    border: 1px solid #000000;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+  } 
+  .dulceTitulo{
+    background: rgba(211, 102, 13, 0.52);
+    border: 1px solid #000000;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .dulceTitulo:hover{
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+    overflow:hidden;
+  }
+
+  .chocolateTitulo:hover{
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+    overflow:hidden;
+  }
+
+  .frutalTitulo:hover{
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+    overflow:hidden;
+  }
+
+  .cremaTitulo:hover{
+    -webkit-transform:scale(0.9);transform:scale(0.9);
+    overflow:hidden;
+  }
+
+  /* Estilo para solucionar un poco el espaciado entre palabras */
+  #crema, #choco, #frutal, #ddl{
+    line-height:5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;    
+  }
+
+  .container{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+  }
+
+  .context{
+    background: #FFFFFF;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  .description{
+    font-family: 'Ledger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  /* https://www.w3schools.com/tags/tag_footer.asp */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #21A9D3;
+    color: white;
+  }
+
+  ul#redes img{
+  border-radius: 256px;
+  font-size: 30px;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 50px;
+  height: 100%;
+  top: 0;
+  border-radius: 8px;
+  }
+
+  img{
+    width: 485px;
+    height: 320px;
+  } 
+  
+
+  ul#redes li {
+    display:inline;
+  }
