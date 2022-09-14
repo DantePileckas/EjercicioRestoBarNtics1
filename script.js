@@ -11,6 +11,10 @@ function ValidarNroTel (inputtxt){
     }
 }
 
+function enviarDatos(){
+    alert("¡Perfecto! Pedido cargado. ¡Muchas gracias!")
+}
+
 
 
 
