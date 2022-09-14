@@ -4,10 +4,10 @@
 ## Integrantes del equipo: Chiarini, Gagliardi y Pileckas. 
 
 ### Clase 29/08 
-✔️  Inicio de la actividad 
-✔️  Estructura básica  
-✔️  Etiquetas principales
-✔️  Prototipado
+✔️ Inicio de la actividad 
+✔️ Estructura básica  
+✔️ Etiquetas principales
+✔️ Prototipado
  
  
  ## Clase 05/09
@@ -19,3 +19,4 @@
 ✔️  Forms  
 ✔️  Scripts
 ✔️  Validación de datos
+✔️  Detalles de Margenes entre elementos
