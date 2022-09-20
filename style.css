@@ -164,6 +164,14 @@ body{
     color: #000000;
   }
 
+
+  #valores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
   /* https://www.w3schools.com/tags/tag_footer.asp */
   footer {
     text-align: center;
